@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "bootstrap-less-only",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "3.3.2",
   "keywords": [
@@ -15,8 +15,6 @@
   "homepage": "http://getbootstrap.com",
   "main": [
     "less/bootstrap.less",
-    "dist/css/bootstrap.css",
-    "dist/js/bootstrap.js",
     "dist/fonts/glyphicons-halflings-regular.eot",
     "dist/fonts/glyphicons-halflings-regular.svg",
     "dist/fonts/glyphicons-halflings-regular.ttf",
@@ -34,6 +32,6 @@
     "test-infra"
   ],
   "dependencies": {
-    "jquery": ">= 1.9.1"
+    
   }
 }
